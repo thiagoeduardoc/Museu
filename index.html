@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional</title>
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Estilo custumizado -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- inicio container -->
+    <div id="container"> 
+
+        <header>
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Exposições</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Pesquisa</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Acervo</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Vídeos</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Fotos</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- inicio principal -->
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="imagens/museu.png" alt="">
+                </section>
+
+                <section id="postagens">
+                    <article id="video">
+                        <h3>Conheça o museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </article>
+
+                    <article id="mapa">
+                        <h3>mapa: Encontre o museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6754.186636693532!2d-43.22980865578149!3d-22.90823619410153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1690802566856!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Os assustadores insetos</a>
+                            </li>
+                            <li>
+                                <a href="#">O crânio de Luzia</a>
+                            </li>
+                            <li>
+                                <a href="#">Preguiça gigante</a>
+                            </li>
+                            <li>
+                                <a href="#">Planta do Brasil central</a>
+                            </li>
+                            <li>
+                                <a href="#">Tereza Cristina: A imperatriz arqueologa</a>
+                            </li>
+                            <li>
+                                <a href="#">Arte com dinossauros</a>
+                            </li>
+                            <li>
+                                <a href="#"><strong>Veja todos(65)</strong></a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article id="historia">
+                        <h3>200 anos de história</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non reiciendis blanditiis ratione consequuntur omnis, consequatur dignissimos itaque sapiente earum numquam dolor modi nulla? Tempore suscipit quisquam soluta non at eligendi?
+                        </p>
+                        <a href=""><strong>Leia mais</strong></a>
+                    </article>
+                </section>
+            </div>
+
+            <!-- Inicio Lateral -->
+            <aside>
+                <section id="depoimento">
+                    <img src="imagens/depoimento.png" alt="">
+                </section>
+
+                <section id="visita">
+                    <h4>Faça uma visita</h4>
+                    <form action="">
+                        <fieldset>
+                            <legend>Selecione uma data</legend>
+
+                            <label for="data">Data</label>
+                            <input class="campo" type= "text" id="data" value="dd/mm/aaaa">
+
+                            <label for="qtd">Qtd pessoas</label>
+                            <input style="width: 30px;" class="campo" type="text" id="qtd" value="1">
+                        </fieldset>
+
+                        <input class="botao" type="submit" value="Verificar disponibilidade">
+                    </form>
+
+                </section>
+
+                <section id="galeria">
+                    <h4>Galeria de fotos</h4>
+                    <a href="">
+                        <img src="imagens/imagem1.jpg" height="93" width="93" alt="">
+                    </a>
+                    <a href="">
+                        <img src="imagens/imagem2.jpg" height="93" width="93" alt="">
+                    </a>
+                    <a href="">
+                        <img src="imagens/imagem3.jpg" height="93" width="93" alt="">
+                    </a>
+                    <a href="">
+                        <img src="imagens/imagem4.jpg" height="93" width="93" alt="">
+                    </a>
+                </section>
+            </aside>
+            <!-- Fim Lateral -->
+
+            <footer>
+                <p>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                    <a href="">Home</a>
+                </p>
+                <p>
+                    2019
+                </p>
+            </footer>
+        </div>
+        <!-- fim principal -->
+        
+
+
+    </div>
+    <!-- fim container -->
+    
+</body>
+</html>
